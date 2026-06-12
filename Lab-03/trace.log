@@ -1,0 +1,8 @@
+Source path:... E:\SWE-4802 Maintainance Lab-03\pysnooper_file.py
+Starting var:.. a = 3
+Starting var:.. b = 4
+11:19:15.942793 call         3 def add(a, b):
+11:19:15.956417 line         4     return a + b
+11:19:15.957107 return       4     return a + b
+Return value:.. 7
+Elapsed time: 00:00:00.015661

@@ -1,7 +1,5 @@
 from loguru import logger
-logger.trace("A trace message")
-logger.debug("A debug message")
-logger.info("An info message")
-logger.warning("A warning message")
-logger.error("An error message")
-logger.critical("A critical message")
+@logger.catch(level="CRITICAL",message="Not Good")
+def funcl(a,b):
+    return a/b
+funcl(2,0)
